@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - HeroBiz Bootstrap Template</title>
+  <title>Joaquin Academy</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/gg.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -33,55 +33,14 @@
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
+  * Plus +=+
+  * Joaquin Academy Highschool made by Tesseract
   ======================================================== -->
 </head>
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">HeroBiz</h1>
-        <span>.</span>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
-
-    </div>
-  </header>
+    @include('components.navba')
 
   <main class="main">
 
@@ -312,957 +271,756 @@
       </div>
 
     </section><!-- /Call To Action Section -->
+<!-- Onfocus Section -->
 
-    <!-- Onfocus Section -->
     <section id="onfocus" class="onfocus section dark-background">
 
-      <div class="container-fluid p-0" data-aos="fade-up">
-
-        <div class="row g-0">
-          <div class="col-lg-6 video-play position-relative">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
-          </div>
-          <div class="col-lg-6">
-            <div class="content d-flex flex-column justify-content-center h-100">
-              <h3>Voluptatem dignissimos provident quasi corporis</h3>
-              <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
-              </p>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-              </ul>
-              <a href="#" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
+    <div class="container-fluid p-0" data-aos="fade-up">
+  
+      <div class="row g-0">
+        <div class="col-lg-6 video-play position-relative">
+          <a href="https://youtu.be/1Fpivi5ljhI?si=jOelHCdGOhC7TLY4" class="glightbox pulsating-play-btn"></a>
+        </div>
+        <div class="col-lg-6">
+          <div class="content d-flex flex-column justify-content-center h-100">
+            <h3>Manfaat Bersekolah dan Berkuliah di Joaquin Academy</h3>
+            <p class="fst-italic">
+              Joaquin Academy Highschool menyediakan lingkungan pendidikan yang inovatif dan mendukung pengembangan keterampilan serta potensi setiap siswa untuk masa depan yang gemilang.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Program kurikulum yang dirancang untuk mengintegrasikan teori dan praktik secara seimbang.</li>
+              <li><i class="bi bi-check-circle"></i> Fasilitas modern dan teknologi terkini yang mendukung proses pembelajaran.</li>
+              <li><i class="bi bi-check-circle"></i> Dosen dan pengajar yang kompeten, berdedikasi, dan berpengalaman di bidang masing-masing.</li>
+              <li><i class="bi bi-check-circle"></i> Kesempatan magang dan kerja sama dengan institusi serta perusahaan terkemuka.</li>
+              <li><i class="bi bi-check-circle"></i> Dukungan penuh terhadap kegiatan ekstrakurikuler untuk membentuk karakter siswa yang tangguh dan kreatif.</li>
+            </ul>
+            <a href="#" class="read-more align-self-start"><span>Pelajari Lebih Lanjut</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
-
       </div>
-
+  
+    </div>
+  
     </section><!-- /Onfocus Section -->
 
-    <!-- Features Section -->
-    <section id="features" class="features section">
+  <!-- Features Section -->
+  <section id="features" class="features section">
 
-      <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-up">
 
-        <ul class="nav nav-tabs row gy-4 d-flex">
+      <ul class="nav nav-tabs row gy-4 d-flex">
 
-          <li class="nav-item col-6 col-md-4 col-lg-2">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-              <i class="bi bi-binoculars" style="color: #0dcaf0;"></i>
-              <h4>Modinest</h4>
-            </a>
-          </li><!-- End Tab 1 Nav -->
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+            <i class="bi bi-book" style="color: #0dcaf0;"></i>
+            <h4>Kurikulum Inovatif</h4>
+          </a>
+        </li><!-- End Tab 1 Nav -->
 
-          <li class="nav-item col-6 col-md-4 col-lg-2">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-              <i class="bi bi-box-seam" style="color: #6610f2;"></i>
-              <h4>Undaesenti</h4>
-            </a>
-          </li><!-- End Tab 2 Nav -->
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+            <i class="bi bi-building" style="color: #6610f2;"></i>
+            <h4>Fasilitas Modern</h4>
+          </a>
+        </li><!-- End Tab 2 Nav -->
 
-          <li class="nav-item col-6 col-md-4 col-lg-2">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-              <i class="bi bi-brightness-high" style="color: #20c997;"></i>
-              <h4>Pariatur</h4>
-            </a>
-          </li><!-- End Tab 3 Nav -->
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+            <i class="bi bi-people" style="color: #20c997;"></i>
+            <h4>Pengajar Kompeten</h4>
+          </a>
+        </li><!-- End Tab 3 Nav -->
 
-          <li class="nav-item col-6 col-md-4 col-lg-2">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
-              <i class="bi bi-command" style="color: #df1529;"></i>
-              <h4>Nostrum</h4>
-            </a>
-          </li><!-- End Tab 4 Nav -->
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+            <i class="bi bi-briefcase" style="color: #df1529;"></i>
+            <h4>Program Magang</h4>
+          </a>
+        </li><!-- End Tab 4 Nav -->
 
-          <li class="nav-item col-6 col-md-4 col-lg-2">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
-              <i class="bi bi-easel" style="color: #0d6efd;"></i>
-              <h4>Adipiscing</h4>
-            </a>
-          </li><!-- End Tab 5 Nav -->
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
+            <i class="bi bi-trophy" style="color: #0d6efd;"></i>
+            <h4>Ekstrakurikuler</h4>
+          </a>
+        </li><!-- End Tab 5 Nav -->
 
-          <li class="nav-item col-6 col-md-4 col-lg-2">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
-              <i class="bi bi-map" style="color: #fd7e14;"></i>
-              <h4>Reprehit</h4>
-            </a>
-          </li><!-- End Tab 6 Nav -->
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
+            <i class="bi bi-globe" style="color: #fd7e14;"></i>
+            <h4>Jaringan Global</h4>
+          </a>
+        </li><!-- End Tab 6 Nav -->
 
-        </ul>
+      </ul>
 
-        <div class="tab-content">
+      <div class="tab-content">
 
-          <div class="tab-pane fade active show" id="features-tab-1">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <h3>Modinest</h3>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="assets/img/features-1.svg" alt="" class="img-fluid">
-              </div>
+        <div class="tab-pane fade active show" id="features-tab-1">
+          <div class="row gy-4">
+            <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+              <h3>Kurikulum Inovatif</h3>
+              <p class="fst-italic">
+                Kurikulum di Joaquin Academy dirancang untuk memadukan teori dan praktik, membantu siswa memahami konsep sekaligus menerapkannya dalam kehidupan nyata.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Integrasi teknologi modern dalam pembelajaran.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Pendekatan pembelajaran berbasis proyek (project-based learning).</li>
+                <li><i class="bi bi-check-circle-fill"></i> Fokus pada pengembangan keterampilan abad ke-21.</li>
+              </ul>
             </div>
-          </div><!-- End Tab Content 1 -->
-
-          <div class="tab-pane fade" id="features-tab-2">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Undaesenti</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-2.svg" alt="" class="img-fluid">
-              </div>
+            <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/features-curriculum.svg" alt="" class="img-fluid">
             </div>
-          </div><!-- End Tab Content 2 -->
-
-          <div class="tab-pane fade" id="features-tab-3">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Pariatur</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
-                </ul>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-3.svg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content 3 -->
-
-          <div class="tab-pane fade" id="features-tab-4">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Nostrum</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-4.svg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content 4 -->
-
-          <div class="tab-pane fade" id="features-tab-5">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Adipiscing</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-5.svg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content 5 -->
-
-          <div class="tab-pane fade" id="features-tab-6">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Reprehit</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-6.svg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content 6 -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Features Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Our Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-5">
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-activity"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Nesciunt Mete</h3>
-                </a>
-                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-broadcast"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Eosle Commodi</h3>
-                </a>
-                <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-easel"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Ledo Markt</h3>
-                </a>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services-4.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-bounding-box-circles"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Asperiores Commodit</h3>
-                </a>
-                <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-                <a href="service-details.html" class="stretched-link"></a>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services-5.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-calendar4-week"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Velit Doloremque</h3>
-                </a>
-                <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-                <a href="service-details.html" class="stretched-link"></a>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services-6.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-chat-square-text"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Dolori Architecto</h3>
-                </a>
-                <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-                <a href="service-details.html" class="stretched-link"></a>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section dark-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
           </div>
-          <div class="swiper-pagination"></div>
-        </div>
+        </div><!-- End Tab Content 1 -->
+
+        <div class="tab-pane fade" id="features-tab-2">
+          <div class="row gy-4">
+            <div class="col-lg-8 order-2 order-lg-1">
+              <h3>Fasilitas Modern</h3>
+              <p>
+                Dengan fasilitas lengkap dan modern, Joaquin Academy mendukung pengalaman belajar yang nyaman dan efektif bagi setiap siswa.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Laboratorium sains dan teknologi yang mutakhir.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Ruang kelas yang dilengkapi dengan perangkat multimedia.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Perpustakaan digital dengan akses ke berbagai sumber belajar.</li>
+              </ul>
+            </div>
+            <div class="col-lg-4 order-1 order-lg-2 text-center">
+              <img src="assets/img/features-facilities.svg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End Tab Content 2 -->
+
+        <div class="tab-pane fade" id="features-tab-3">
+          <div class="row gy-4">
+            <div class="col-lg-8 order-2 order-lg-1">
+              <h3>Pengajar Kompeten</h3>
+              <p>
+                Tim pengajar di Joaquin Academy terdiri dari para profesional yang berpengalaman dan berdedikasi tinggi dalam bidangnya.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Pendekatan pembelajaran yang personal dan interaktif.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Pelatihan dan pengembangan profesional secara berkala.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Dukungan akademik yang holistik untuk setiap siswa.</li>
+              </ul>
+            </div>
+            <div class="col-lg-4 order-1 order-lg-2 text-center">
+              <img src="assets/img/features-teachers.svg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End Tab Content 3 -->
+
+        <div class="tab-pane fade" id="features-tab-4">
+          <div class="row gy-4">
+            <div class="col-lg-8 order-2 order-lg-1">
+              <h3>Program Magang</h3>
+              <p>
+                Joaquin Academy bekerja sama dengan berbagai perusahaan untuk menyediakan program magang yang memberikan pengalaman dunia kerja nyata.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Magang di perusahaan terkemuka di dalam dan luar negeri.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Dukungan karir melalui bimbingan dan pelatihan.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Kesempatan membangun jaringan profesional sejak dini.</li>
+              </ul>
+            </div>
+            <div class="col-lg-4 order-1 order-lg-2 text-center">
+              <img src="assets/img/features-internship.svg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End Tab Content 4 -->
+
+        <div class="tab-pane fade" id="features-tab-5">
+          <div class="row gy-4">
+            <div class="col-lg-8 order-2 order-lg-1">
+              <h3>Ekstrakurikuler</h3>
+              <p>
+                Joaquin Academy menyediakan berbagai kegiatan ekstrakurikuler untuk mendukung pengembangan minat dan bakat siswa.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Klub olahraga, seni, dan sains yang beragam.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Kompetisi dan festival yang diadakan secara rutin.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Dukungan penuh untuk pengembangan bakat siswa.</li>
+              </ul>
+            </div>
+            <div class="col-lg-4 order-1 order-lg-2 text-center">
+              <img src="assets/img/features-extracurricular.svg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End Tab Content 5 -->
+
+        <div class="tab-pane fade" id="features-tab-6">
+          <div class="row gy-4">
+            <div class="col-lg-8 order-2 order-lg-1">
+              <h3>Jaringan Global</h3>
+              <p>
+                Joaquin Academy memiliki koneksi dengan institusi pendidikan dan perusahaan global untuk membuka peluang yang lebih luas bagi siswa.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Program pertukaran pelajar internasional.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Akses ke seminar dan konferensi global.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Kerja sama dengan universitas ternama di dunia.</li>
+              </ul>
+            </div>
+            <div class="col-lg-4 order-1 order-lg-2 text-center">
+              <img src="assets/img/features-global-network.svg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End Tab Content 6 -->
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </div>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
+  </section><!-- /Features Section -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Our Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+        <!-- Services Section -->
+        <section id="services" class="services section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+        <h2>Kejurusan Kami</h2>
+        <p>Pilihan program studi yang dirancang untuk membentuk masa depan cerah para siswa di Akademi Joaquin Highschool.</p>
+        </div><!-- End Section Title -->
+    
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+        <div class="row gy-5">
+    
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item">
+                <div class="img">
+                <img src="assets/img/services-1.jpg" class="img-fluid" alt="Teknologi Informasi">
+                </div>
+                <div class="details position-relative">
+                <div class="icon">
+                    <i class="bi bi-laptop"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                    <h3>Teknologi Informasi</h3>
+                </a>
+                <p>Mempelajari dasar-dasar pengembangan perangkat lunak, jaringan komputer, dan keamanan siber untuk era digital.</p>
+                </div>
+            </div>
+            </div><!-- End Service Item -->
+    
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+                <div class="img">
+                <img src="assets/img/services-2.jpg" class="img-fluid" alt="Kewirausahaan">
+                </div>
+                <div class="details position-relative">
+                <div class="icon">
+                    <i class="bi bi-briefcase"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                    <h3>Kewirausahaan</h3>
+                </a>
+                <p>Melatih siswa untuk menjadi pemimpin bisnis dengan kemampuan inovasi, manajemen, dan pengembangan usaha.</p>
+                </div>
+            </div>
+            </div><!-- End Service Item -->
+    
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+                <div class="img">
+                <img src="assets/img/services-3.jpg" class="img-fluid" alt="Desain Grafis & Multimedia">
+                </div>
+                <div class="details position-relative">
+                <div class="icon">
+                    <i class="bi bi-palette"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                    <h3>Desain Grafis & Multimedia</h3>
+                </a>
+                <p>Mengembangkan kreativitas siswa melalui seni visual, animasi, dan desain interaktif untuk berbagai media.</p>
+                </div>
+            </div>
+            </div><!-- End Service Item -->
+    
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="service-item">
+                <div class="img">
+                <img src="assets/img/services-4.jpg" class="img-fluid" alt="Ilmu Komunikasi">
+                </div>
+                <div class="details position-relative">
+                <div class="icon">
+                    <i class="bi bi-mic"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                    <h3>Ilmu Komunikasi</h3>
+                </a>
+                <p>Belajar membangun hubungan yang kuat melalui komunikasi efektif, jurnalistik, dan hubungan masyarakat.</p>
+                </div>
+            </div>
+            </div><!-- End Service Item -->
+    
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+            <div class="service-item">
+                <div class="img">
+                <img src="assets/img/services-5.jpg" class="img-fluid" alt="Sains & Teknologi">
+                </div>
+                <div class="details position-relative">
+                <div class="icon">
+                    <i class="bi bi-flask"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                    <h3>Sains & Teknologi</h3>
+                </a>
+                <p>Menyediakan dasar pengetahuan di bidang sains untuk menciptakan inovasi dan solusi teknologi masa depan.</p>
+                </div>
+            </div>
+            </div><!-- End Service Item -->
+    
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+            <div class="service-item">
+                <div class="img">
+                <img src="assets/img/services-6.jpg" class="img-fluid" alt="Manajemen Keuangan">
+                </div>
+                <div class="details position-relative">
+                <div class="icon">
+                    <i class="bi bi-currency-exchange"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                    <h3>Manajemen Keuangan</h3>
+                </a>
+                <p>Melatih siswa dalam mengelola sumber daya finansial secara efektif untuk kebutuhan pribadi maupun perusahaan.</p>
+                </div>
+            </div>
+            </div><!-- End Service Item -->
+    
+        </div>
+    
+        </div>
+    
+    </section><!-- /Services Section -->
+    
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials section dark-background">
 
-        <div class="row gy-4">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Alumni</h2>
+            <p>Ucap para alumni Joaquin Academy Highschool</p>
+        </div><!-- End Section Title -->
 
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item">
+        <img src="assets/img/bg-alum.jpg" class="testimonials-bg" alt="bg-alumni">
 
-              <div class="pricing-header">
-                <h3>Free Plan</h3>
-                <h4><sup>$</sup>0<span> / month</span></h4>
-              </div>
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-              <ul>
-                <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
+            <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+                {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                    "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                }
+                }
+            </script>
+            <div class="swiper-wrapper">
 
-              <div class="text-center mt-auto">
-                <a href="#" class="buy-btn">Buy Now</a>
-              </div>
+                <div class="swiper-slide">
+                <div class="testimonial-item">
+                    <img src="assets/img/alum-1.jpg" class="testimonial-img" alt="">
+                    <h3>Ayanokouji</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                    <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Kamu mungkin menyesal mencoba memanipulasiku." – Ayanokouji Kiyotaka.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                </div>
+                </div><!-- End testimonial item -->
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                    <img src="assets/img/alum-2.jpg" class="testimonial-img" alt="">
+                    <h3>Andi Wijaya</h3>
+                    <h4>Alumni Teknologi Informasi</h4>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Ilmu yang saya peroleh dari akademi ini benar-benar menjadi fondasi kokoh dalam karier saya sebagai pengembang web. Pengajarannya tidak hanya fokus pada teknis, tetapi juga membentuk pola pikir kritis yang sangat saya rasakan manfaatnya dalam dunia kerja.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                    </div>
+                </div><!-- End testimonial item -->
+                
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                    <img src="assets/img/alum-3.jpg" class="testimonial-img" alt="">
+                    <h3>Siti Rahma</h3>
+                    <h4>Alumni Kewirausahaan</h4>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Pendidikan dari instansi ini memberikan saya keberanian untuk memulai bisnis sendiri. Materi yang disampaikan relevan dan aplikatif, memberikan bekal yang luar biasa dalam mengelola usaha saya hingga berkembang seperti saat ini.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                    </div>
+                </div><!-- End testimonial item -->
+                
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                    <img src="assets/img/alum-4.jpg" class="testimonial-img" alt="">
+                    <h3>Rizky Pratama</h3>
+                    <h4>Alumni Ilmu Komputer</h4>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Menjadi bagian dari instansi ini adalah keputusan terbaik yang pernah saya buat. Kurikulumnya dirancang dengan sangat baik, dan dukungan para dosen tidak ternilai harganya. Semua ini telah membimbing saya untuk menjadi profesional di bidang teknologi.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                    </div>
+                </div><!-- End testimonial item -->              
+
+                <div class="swiper-slide">
+                <div class="testimonial-item">
+                    <img src="assets/img/alum-5.jpg" class="testimonial-img" alt="">
+                    <h3>John Larson</h3>
+                    <h4>Entrepreneur</h4>
+                    <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                </div>
+                </div><!-- End testimonial item -->
 
             </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="400">
-            <div class="pricing-item featured">
-
-              <div class="pricing-header">
-                <h3>Business Plan</h3>
-                <h4><sup>$</sup>29<span> / month</span></h4>
-              </div>
-
-              <ul>
-                <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-dot"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-dot"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-
-              <div class="text-center mt-auto">
-                <a href="#" class="buy-btn">Buy Now</a>
-              </div>
-
+            <div class="swiper-pagination"></div>
             </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="600">
-            <div class="pricing-item">
-
-              <div class="pricing-header">
-                <h3>Developer Plan</h3>
-                <h4><sup>$</sup>49<span> / month</span></h4>
-              </div>
-
-              <ul>
-                <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-dot"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-dot"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-
-              <div class="text-center mt-auto">
-                <a href="#" class="buy-btn">Buy Now</a>
-              </div>
-
-            </div>
-          </div><!-- End Pricing Item -->
 
         </div>
 
-      </div>
+        </section><!-- /Testimonials Section -->
 
-    </section><!-- /Pricing Section -->
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing section">
 
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Our Pricing</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row gy-4">
+
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="pricing-item">
+
+                <div class="pricing-header">
+                    <h3>Free Plan</h3>
+                    <h4><sup>$</sup>0<span> / month</span></h4>
+                </div>
+
+                <ul>
+                    <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
+                    <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
+                    <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</span></li>
+                    <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                    <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                </ul>
+
+                <div class="text-center mt-auto">
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </div>
+
+                </div>
+            </div><!-- End Pricing Item -->
+
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+                <div class="pricing-item featured">
+
+                <div class="pricing-header">
+                    <h3>Business Plan</h3>
+                    <h4><sup>$</sup>29<span> / month</span></h4>
+                </div>
+
+                <ul>
+                    <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
+                    <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
+                    <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</span></li>
+                    <li><i class="bi bi-dot"></i> <span>Pharetra massa massa ultricies</span></li>
+                    <li><i class="bi bi-dot"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                </ul>
+
+                <div class="text-center mt-auto">
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </div>
+
+                </div>
+            </div><!-- End Pricing Item -->
+
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="600">
+                <div class="pricing-item">
+
+                <div class="pricing-header">
+                    <h3>Developer Plan</h3>
+                    <h4><sup>$</sup>49<span> / month</span></h4>
+                </div>
+
+                <ul>
+                    <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
+                    <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
+                    <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</span></li>
+                    <li><i class="bi bi-dot"></i> <span>Pharetra massa massa ultricies</span></li>
+                    <li><i class="bi bi-dot"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                </ul>
+
+                <div class="text-center mt-auto">
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </div>
+
+                </div>
+            </div><!-- End Pricing Item -->
+
+            </div>
+
+        </div>
+
+        </section><!-- /Pricing Section -->
     <!-- Faq Section -->
     <section id="faq" class="faq section">
 
-      <div class="container-fluid">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
-
-            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-              </p>
-            </div>
-
-            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="faq-item faq-active">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
-                <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-            </div>
-
+    <div class="container-fluid">
+  
+      <div class="row gy-4">
+  
+        <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+  
+          <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+            <h3><span>Pertanyaan yang </span><strong>Sering Diajukan</strong></h3>
+            <p>
+              Di bawah ini adalah kumpulan pertanyaan yang sering diajukan oleh calon mahasiswa, orang tua, maupun masyarakat umum terkait instansi kami. Kami harap jawaban ini dapat memberikan kejelasan tentang layanan dan fasilitas yang kami tawarkan.
+            </p>
           </div>
-
-          <div class="col-lg-5 order-1 order-lg-2">
-            <img src="assets/img/faq.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+  
+          <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+  
+            <div class="faq-item faq-active">
+              <i class="faq-icon bi bi-question-circle"></i>
+              <h3>Bagaimana cara mendaftar sebagai mahasiswa baru di akademi ini?</h3>
+              <div class="faq-content">
+                <p>Pendaftaran mahasiswa baru dapat dilakukan secara online melalui laman resmi kami di <strong>www.joaquin.ac.id</strong>. Anda hanya perlu mengisi formulir pendaftaran, mengunggah dokumen yang diperlukan, dan mengikuti tes seleksi sesuai jadwal yang ditentukan.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+  
+            <div class="faq-item">
+              <i class="faq-icon bi bi-question-circle"></i>
+              <h3>Apakah ada beasiswa yang tersedia bagi mahasiswa?</h3>
+              <div class="faq-content">
+                <p>Ya, kami menyediakan berbagai jenis beasiswa, termasuk beasiswa prestasi, beasiswa kebutuhan finansial, dan beasiswa dari mitra industri. Informasi lebih lengkap tentang syarat dan cara pendaftaran beasiswa dapat ditemukan di bagian <strong>Beasiswa</strong> pada website kami.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+  
+            <div class="faq-item">
+              <i class="faq-icon bi bi-question-circle"></i>
+              <h3>Program studi apa saja yang ditawarkan di akademi ini?</h3>
+              <div class="faq-content">
+                <p>Kami menawarkan program studi unggulan di bidang Teknologi Informasi, Kewirausahaan, Desain Grafis, dan Manajemen Bisnis. Setiap program dirancang untuk memenuhi kebutuhan industri dan memberikan pengalaman belajar yang relevan serta aplikatif.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+  
+            <div class="faq-item">
+              <i class="faq-icon bi bi-question-circle"></i>
+              <h3>Apakah akademi ini memiliki fasilitas laboratorium?</h3>
+              <div class="faq-content">
+                <p>Ya, akademi kami dilengkapi dengan laboratorium modern, termasuk laboratorium komputer, laboratorium jaringan, dan studio desain kreatif. Semua fasilitas ini dirancang untuk mendukung proses belajar dan meningkatkan kompetensi mahasiswa.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+  
           </div>
+  
         </div>
-
-      </div>
-
-    </section><!-- /Faq Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container-fluid">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
+  
+        <div class="col-lg-5 order-1 order-lg-2">
+          <img src="assets/img/faq.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
         </div>
-
       </div>
-
-    </section><!-- /Portfolio Section -->
+  
+    </div>
+  
+  </section><!-- /Faq Section -->  
 
     <!-- Team Section -->
-    <section id="team" class="team section">
+<section id="team" class="team section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Our Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-5">
-
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-              </div>
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Pengajar Kami</h2>
+      <p>Tim pengajar yang berkompeten dan berdedikasi tinggi untuk membimbing para mahasiswa mencapai kesuksesan.</p>
+    </div><!-- End Section Title -->
+  
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+  
+      <div class="row gy-5">
+  
+        <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/piano.jpg" class="img-fluid" alt="Dr. Piano Agus">
             </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div>
+            <div class="member-info">
+              <h4>Dr. Piano Agus</h4>
+              <span>Rektor & Ahli Teknologi Informasi</span>
             </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
+          </div>
+        </div><!-- End Team Member -->
+  
+        <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/hand.jpg" class="img-fluid" alt="Prof. Handless agoes">
             </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
+            <div class="member-info">
+              <h4>Prof. Handless Agoes</h4>
+              <span>Ketua Program Studi Kewirausahaan</span>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+  
+        <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/sad.jpg" class="img-fluid" alt="Dr. Sadness goes">
+            </div>
+            <div class="member-info">
+              <h4>Dr. Sadness goes</h4>
+              <span>Pakar Desain Grafis & Multimedia</span>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+  
       </div>
+  
+    </div>
+  
+  </section><!-- /Team Section -->
+  
+<!-- Recent Posts Section -->
+<section id="recent-posts" class="recent-posts section">
 
-    </section><!-- /Team Section -->
-
-    <!-- Recent Posts Section -->
-    <section id="recent-posts" class="recent-posts section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Recent Blog Posts</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Artikel Terkini</h2>
+      <p>Membahas topik edukatif dan inspiratif dari Akademi Joaquin High School.</p>
+    </div><!-- End Section Title -->
+  
+    <div class="container">
+  
+      <div class="row gy-4">
+  
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <article>
+  
+            <div class="post-img">
+              <img src="assets/img/blog-1.jpg" alt="" class="img-fluid">
+            </div>
+  
+            <p class="post-category">Pendidikan</p>
+  
+            <h2 class="title">
+              <a href="blog-details.html">Meningkatkan Potensi Belajar Melalui Teknologi</a>
+            </h2>
+  
+            <div class="d-flex align-items-center">
+              <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+              <div class="post-meta">
+                <p class="post-author">Dr. Alex Joaquin</p>
+                <p class="post-date">
+                  <time datetime="2025-01-10">Jan 10, 2025</time>
+                </p>
               </div>
-
-              <p class="post-category">Politics</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2022</time>
-                  </p>
-                </div>
+            </div>
+  
+          </article>
+        </div><!-- End post list item -->
+  
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <article>
+  
+            <div class="post-img">
+              <img src="assets/img/blog-2.jpg" alt="" class="img-fluid">
+            </div>
+  
+            <p class="post-category">Kewirausahaan</p>
+  
+            <h2 class="title">
+              <a href="blog-details.html">Mengasah Jiwa Wirausaha Sejak Dini</a>
+            </h2>
+  
+            <div class="d-flex align-items-center">
+              <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+              <div class="post-meta">
+                <p class="post-author">Prof. Clara Adriana</p>
+                <p class="post-date">
+                  <time datetime="2025-01-05">Jan 5, 2025</time>
+                </p>
               </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+            </div>
+  
+          </article>
+        </div><!-- End post list item -->
+  
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <article>
+  
+            <div class="post-img">
+              <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+            </div>
+  
+            <p class="post-category">Desain & Kreativitas</p>
+  
+            <h2 class="title">
+              <a href="blog-details.html">Membangun Portofolio Desain yang Mengesankan</a>
+            </h2>
+  
+            <div class="d-flex align-items-center">
+              <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+              <div class="post-meta">
+                <p class="post-author">Dr. William Marcellus</p>
+                <p class="post-date">
+                  <time datetime="2025-01-01">Jan 1, 2025</time>
+                </p>
               </div>
-
-              <p class="post-category">Sports</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Allisa Mayer</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Entertainment</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-        </div><!-- End recent posts list -->
-
-      </div>
-
-    </section><!-- /Recent Posts Section -->
-
+            </div>
+  
+          </article>
+        </div><!-- End post list item -->
+  
+      </div><!-- End recent posts list -->
+  
+    </div>
+  
+  </section><!-- /Recent Posts Section -->
+  
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
@@ -1367,7 +1125,7 @@
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="#">Dashboard</a></li>
               <li><a href="#">About us</a></li>
               <li><a href="#">Services</a></li>
               <li><a href="#">Terms of service</a></li>
