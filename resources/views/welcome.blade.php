@@ -165,87 +165,88 @@
 
     </section><!-- /About Section -->
     
-    <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services section">
+<!-- Featured Services Section -->
+<section id="featured-services" class="featured-services section">
 
-        <div class="container">
-  
-          <div class="row gy-4">
-  
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-              <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-activity icon"></i></div>
-                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-              </div>
-            </div><!-- End Service Item -->
-  
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-              <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-                <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-              </div>
-            </div><!-- End Service Item -->
-  
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-              <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-                <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-              </div>
-            </div><!-- End Service Item -->
-  
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-              <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-              </div>
-            </div><!-- End Service Item -->
-  
-          </div>
-  
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="bi bi-activity icon"></i></div>
+          <h4><a href="" class="stretched-link">Kurikulum Unggul</a></h4>
+          <p>Kurikulum di Joaquin Academy Highschool mengintegrasikan teori dan praktik untuk mendukung pengembangan akademik dan keterampilan siswa.</p>
         </div>
-  
-      </section><!-- /Featured Services Section -->
+      </div><!-- End Service Item -->
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+          <h4><a href="" class="stretched-link">Fasilitas Modern</a></h4>
+          <p>Dengan laboratorium, ruang kelas multimedia, dan perpustakaan digital, Joaquin Academy memberikan lingkungan belajar yang optimal.</p>
         </div>
+      </div><!-- End Service Item -->
 
-      </div>
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+          <h4><a href="" class="stretched-link">Ekstrakurikuler Beragam</a></h4>
+          <p>Berbagai kegiatan seperti seni, olahraga, dan sains dirancang untuk mengembangkan minat dan bakat siswa.</p>
+        </div>
+      </div><!-- End Service Item -->
 
-    </section><!-- /Clients Section -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+          <h4><a href="" class="stretched-link">Program Magang</a></h4>
+          <p>Kerja sama dengan berbagai perusahaan terkemuka memungkinkan siswa mendapatkan pengalaman dunia kerja nyata.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Featured Services Section -->
+
+<!-- Clients Section -->
+<section id="clients" class="clients section">
+
+<div class="container" data-aos="fade-up">
+
+  <div class="row gy-4">
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+  </div>
+
+</div>
+
+</section><!-- /Clients Section -->
+
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section">
@@ -255,14 +256,14 @@
         <div class="row g-5">
 
           <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-            <h3>Alias sunt quas <em>Cupiditate</em> oluptas hic minima</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a class="cta-btn align-self-start" href="#">Call To Action</a>
+            <h3>Pencapaian <em>Gemilang</em> Joaquin Academy Highschool</h3>
+            <p> Joaquin Academy Highschool telah meraih berbagai penghargaan, mulai dari prestasi akademik tingkat nasional hingga pencapaian luar biasa di bidang olahraga dan seni. Sekolah ini dikenal karena dedikasinya terhadap kualitas pendidikan dan pembentukan karakter siswa. Dengan fasilitas modern dan program pendidikan unggulan, Joaquin Academy terus mencetak generasi penerus bangsa yang berprestasi.</p>
+            <a class="cta-btn align-self-start" href="#">Pelajari Lebih Lanjut</a>
           </div>
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
             <div class="img">
-              <img src="assets/img/cta.jpg" alt="" class="img-fluid">
+              <img src="assets/img/joaquin-achievements.jpg" alt="Pencapaian Joaquin Academy" class="img-fluid">
             </div>
           </div>
 
@@ -271,7 +272,7 @@
       </div>
 
     </section><!-- /Call To Action Section -->
-<!-- Onfocus Section -->
+
 
     <section id="onfocus" class="onfocus section dark-background">
 
@@ -715,93 +716,328 @@
 
         </section><!-- /Testimonials Section -->
 
-        <!-- Pricing Section -->
-        <section id="pricing" class="pricing section">
+<!-- Featured Services Section -->
+<section id="featured-services" class="featured-services section">
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Our Pricing</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
+  <div class="container">
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
 
-            <div class="row gy-4">
-
-            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-                <div class="pricing-item">
-
-                <div class="pricing-header">
-                    <h3>Free Plan</h3>
-                    <h4><sup>$</sup>0<span> / month</span></h4>
-                </div>
-
-                <ul>
-                    <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
-                    <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
-                    <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</span></li>
-                    <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                    <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                </ul>
-
-                <div class="text-center mt-auto">
-                    <a href="#" class="buy-btn">Buy Now</a>
-                </div>
-
-                </div>
-            </div><!-- End Pricing Item -->
-
-            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="400">
-                <div class="pricing-item featured">
-
-                <div class="pricing-header">
-                    <h3>Business Plan</h3>
-                    <h4><sup>$</sup>29<span> / month</span></h4>
-                </div>
-
-                <ul>
-                    <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
-                    <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
-                    <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</span></li>
-                    <li><i class="bi bi-dot"></i> <span>Pharetra massa massa ultricies</span></li>
-                    <li><i class="bi bi-dot"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                </ul>
-
-                <div class="text-center mt-auto">
-                    <a href="#" class="buy-btn">Buy Now</a>
-                </div>
-
-                </div>
-            </div><!-- End Pricing Item -->
-
-            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="600">
-                <div class="pricing-item">
-
-                <div class="pricing-header">
-                    <h3>Developer Plan</h3>
-                    <h4><sup>$</sup>49<span> / month</span></h4>
-                </div>
-
-                <ul>
-                    <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
-                    <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
-                    <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</span></li>
-                    <li><i class="bi bi-dot"></i> <span>Pharetra massa massa ultricies</span></li>
-                    <li><i class="bi bi-dot"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                </ul>
-
-                <div class="text-center mt-auto">
-                    <a href="#" class="buy-btn">Buy Now</a>
-                </div>
-
-                </div>
-            </div><!-- End Pricing Item -->
-
-            </div>
-
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="bi bi-activity icon"></i></div>
+          <h4><a href="" class="stretched-link">Kurikulum Unggul</a></h4>
+          <p>Kurikulum di Joaquin Academy Highschool mengintegrasikan teori dan praktik untuk mendukung pengembangan akademik dan keterampilan siswa.</p>
         </div>
+      </div><!-- End Service Item -->
 
-        </section><!-- /Pricing Section -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+          <h4><a href="" class="stretched-link">Fasilitas Modern</a></h4>
+          <p>Dengan laboratorium, ruang kelas multimedia, dan perpustakaan digital, Joaquin Academy memberikan lingkungan belajar yang optimal.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+          <h4><a href="" class="stretched-link">Ekstrakurikuler Beragam</a></h4>
+          <p>Berbagai kegiatan seperti seni, olahraga, dan sains dirancang untuk mengembangkan minat dan bakat siswa.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+          <h4><a href="" class="stretched-link">Program Magang</a></h4>
+          <p>Kerja sama dengan berbagai perusahaan terkemuka memungkinkan siswa mendapatkan pengalaman dunia kerja nyata.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Featured Services Section -->
+
+<!-- Clients Section -->
+<section id="clients" class="clients section">
+
+<div class="container" data-aos="fade-up">
+
+  <div class="row gy-4">
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+    <div class="col-xl-2 col-md-3 col-6 client-logo">
+      <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+    </div><!-- End Client Item -->
+
+  </div>
+
+</div>
+
+</section><!-- /Clients Section -->
+
+<!-- Pricing Section -->
+<section id="pricing" class="pricing section">
+
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
+    <h2>Paket Pendidikan</h2>
+    <p>Berikut adalah rincian paket pendidikan yang ditawarkan oleh Joaquin Academy Highschool untuk mendukung keberhasilan siswa.</p>
+</div><!-- End Section Title -->
+
+<div class="container" data-aos="fade-up" data-aos-delay="100">
+
+  <div class="row gy-4">
+
+  <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+      <div class="pricing-item">
+
+      <div class="pricing-header">
+          <h3>Paket Dasar</h3>
+          <h4><sup>Rp</sup>0<span> / bulan</span></h4>
+      </div>
+
+      <ul>
+          <li><i class="bi bi-dot"></i> <span>Akses materi pelajaran dasar</span></li>
+          <li><i class="bi bi-dot"></i> <span>Konsultasi guru secara terbatas</span></li>
+          <li><i class="bi bi-dot"></i> <span>Partisipasi di kegiatan ekstrakurikuler dasar</span></li>
+          <li class="na"><i class="bi bi-x"></i> <span>Akses ke laboratorium</span></li>
+          <li class="na"><i class="bi bi-x"></i> <span>Program magang</span></li>
+      </ul>
+
+      <div class="text-center mt-auto">
+          <a href="#" class="buy-btn">Daftar Sekarang</a>
+      </div>
+
+      </div>
+  </div><!-- End Pricing Item -->
+
+  <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+      <div class="pricing-item featured">
+
+      <div class="pricing-header">
+          <h3>Paket Lanjutan</h3>
+          <h4><sup>Rp</sup>1.500.000<span> / bulan</span></h4>
+      </div>
+
+      <ul>
+          <li><i class="bi bi-dot"></i> <span>Akses ke semua materi pelajaran</span></li>
+          <li><i class="bi bi-dot"></i> <span>Konsultasi intensif dengan guru</span></li>
+          <li><i class="bi bi-dot"></i> <span>Akses penuh ke laboratorium</span></li>
+          <li><i class="bi bi-dot"></i> <span>Partisipasi penuh di ekstrakurikuler</span></li>
+          <li><i class="bi bi-dot"></i> <span>Program magang eksklusif</span></li>
+      </ul>
+
+      <div class="text-center mt-auto">
+          <a href="#" class="buy-btn">Daftar Sekarang</a>
+      </div>
+
+      </div>
+  </div><!-- End Pricing Item -->
+
+  <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="600">
+      <div class="pricing-item">
+
+      <div class="pricing-header">
+          <h3>Paket Premium</h3>
+          <h4><sup>Rp</sup>3.000.000<span> / bulan</span></h4>
+      </div>
+
+      <ul>
+          <li><i class="bi bi-dot"></i> <span>Semua fasilitas paket lanjutan</span></li>
+          <li><i class="bi bi-dot"></i> <span>Program mentoring individu</span></li>
+          <li><i class="bi bi-dot"></i> <span>Kelas tambahan untuk persiapan universitas</span></li>
+          <li><i class="bi bi-dot"></i> <span>Akses eksklusif ke seminar dan workshop</span></li>
+          <li><i class="bi bi-dot"></i> <span>Dukungan konsultasi karir profesional</span></li>
+      </ul>
+
+      <div class="text-center mt-auto">
+          <a href="#" class="buy-btn">Daftar Sekarang</a>
+      </div>
+
+      </div>
+  </div><!-- End Pricing Item -->
+
+  </div>
+
+</div>
+
+</section><!-- /Pricing Section -->
+
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section">
+
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+              <h2>Portfolio</h2>
+              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          </div><!-- End Section Title -->
+
+          <div class="container-fluid">
+
+              <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+                  <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                      <li data-filter="*" class="filter-active">All</li>
+                      <li data-filter=".filter-app">App</li>
+                      <li data-filter=".filter-product">Product</li>
+                      <li data-filter=".filter-branding">Branding</li>
+                      <li data-filter=".filter-books">Books</li>
+                  </ul><!-- End Portfolio Filters -->
+
+                  <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                              <div class="portfolio-info">
+                                  <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div><!-- End Portfolio Item -->
+
+                  </div><!-- End Portfolio Container -->
+
+              </div>
+
+          </div>
+
+      </section><!-- /Portfolio Section -->
+
     <!-- Faq Section -->
     <section id="faq" class="faq section">
 
