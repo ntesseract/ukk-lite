@@ -247,32 +247,29 @@
 
 </section><!-- /Clients Section -->
 
+  <section id="call-to-action" class="call-to-action section">
 
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
+    <div class="container" data-aos="zoom-out">
 
-      <div class="container" data-aos="zoom-out">
+      <div class="row g-5">
 
-        <div class="row g-5">
+        <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+          <h3>Jadilah Bagian dari <em>Keluarga Joaquin Academy Highschool</em></h3>
+          <p> Bergabunglah bersama kami di Joaquin Academy Highschool dan jadikan langkah awal Anda menuju masa depan yang gemilang! Dengan kurikulum inovatif, fasilitas modern, dan lingkungan belajar yang mendukung, kami berkomitmen membantu siswa mencapai potensi terbaik mereka. Mulailah perjalanan Anda untuk meraih prestasi hari ini.</p>
+          <a class="cta-btn align-self-start" href="#">Daftar Sekarang</a>
+        </div>
 
-          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-            <h3>Pencapaian <em>Gemilang</em> Joaquin Academy Highschool</h3>
-            <p> Joaquin Academy Highschool telah meraih berbagai penghargaan, mulai dari prestasi akademik tingkat nasional hingga pencapaian luar biasa di bidang olahraga dan seni. Sekolah ini dikenal karena dedikasinya terhadap kualitas pendidikan dan pembentukan karakter siswa. Dengan fasilitas modern dan program pendidikan unggulan, Joaquin Academy terus mencetak generasi penerus bangsa yang berprestasi.</p>
-            <a class="cta-btn align-self-start" href="#">Pelajari Lebih Lanjut</a>
+        <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+          <div class="img">
+            <img src="assets/img/joaquin-academy.jpg" alt="Joaquin Academy Highschool" class="img-fluid">
           </div>
-
-          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
-            <div class="img">
-              <img src="assets/img/joaquin-achievements.jpg" alt="Pencapaian Joaquin Academy" class="img-fluid">
-            </div>
-          </div>
-
         </div>
 
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </div>
 
+  </section>
 
     <section id="onfocus" class="onfocus section dark-background">
 
@@ -816,7 +813,7 @@
 
       <div class="pricing-header">
           <h3>Paket Dasar</h3>
-          <h4><sup>Rp</sup>0<span> / bulan</span></h4>
+          <h4><sup>Rp</sup>1.000.000<span> / bulan</span></h4>
       </div>
 
       <ul>
@@ -892,8 +889,8 @@
 
           <!-- Section Title -->
           <div class="container section-title" data-aos="fade-up">
-              <h2>Portfolio</h2>
-              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+              <h2>Galery</h2>
+              <p>Galery dari Joaquin Academy Highschool</p>
           </div><!-- End Section Title -->
 
           <div class="container-fluid">
@@ -902,19 +899,19 @@
 
                   <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                       <li data-filter="*" class="filter-active">All</li>
-                      <li data-filter=".filter-app">App</li>
-                      <li data-filter=".filter-product">Product</li>
-                      <li data-filter=".filter-branding">Branding</li>
-                      <li data-filter=".filter-books">Books</li>
+                      <li data-filter=".filter-app">PC</li>
+                      <li data-filter=".filter-product">Robotika</li>
+                      <li data-filter=".filter-branding">Servo</li>
+                      <li data-filter=".filter-books">Jasa</li>
                   </ul><!-- End Portfolio Filters -->
 
                   <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/pc-1.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/pc-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -922,9 +919,9 @@
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/robot-1.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/robot-1.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -932,9 +929,9 @@
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/servo-1.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/servo-1.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -942,9 +939,9 @@
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/man-1.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/man-1.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -952,9 +949,9 @@
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/pc-2.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/pc-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -962,9 +959,9 @@
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/robot-2.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/robot-2.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -972,9 +969,9 @@
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/servo-2.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/servo-2.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -982,9 +979,9 @@
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/man-2.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/man-2.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -992,9 +989,9 @@
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/pc-3.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/pc-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -1002,9 +999,9 @@
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/robot-3.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/robot-3.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -1012,9 +1009,9 @@
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/servo-3.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/servo-3.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -1022,9 +1019,9 @@
 
                       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
                           <div class="portfolio-content h-100">
-                              <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                              <img src="assets/img/man-3.jpg" class="img-fluid" alt="">
                               <div class="portfolio-info">
-                                  <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                  <a href="assets/img/man-3.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                               </div>
                           </div>
@@ -1348,57 +1345,57 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">HeroBiz</span>
+              <span class="sitename">Joaquin Academy Highschool</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p>123 Knowledge Lane</p>
+              <p>Scholars City, ED 456789</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+1 234 567 890</span></p>
+              <p><strong>Email:</strong> <span>contact@joaquinacademy.edu</span></p>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Quick Links</h4>
             <ul>
-              <li><a href="#">Dashboard</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Admissions</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Programs</a></li>
+              <li><a href="#">Student Life</a></li>
+              <li><a href="#">Alumni</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+            <h4>Academic Services</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Counseling</a></li>
+              <li><a href="#">Library</a></li>
+              <li><a href="#">Research Assistance</a></li>
+              <li><a href="#">Career Planning</a></li>
+              <li><a href="#">Internships</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
+            <h4>University Partners</h4>
             <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
+              <li><a href="#">National University</a></li>
+              <li><a href="#">Global Tech Institute</a></li>
+              <li><a href="#">Arts and Sciences College</a></li>
+              <li><a href="#">Future Leaders Academy</a></li>
+              <li><a href="#">Scholarly Research Hub</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
+            <h4>Extracurricular</h4>
             <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
+              <li><a href="#">Sports Teams</a></li>
+              <li><a href="#">Music Clubs</a></li>
+              <li><a href="#">STEM Projects</a></li>
+              <li><a href="#">Art Competitions</a></li>
+              <li><a href="#">Community Service</a></li>
             </ul>
           </div>
 
@@ -1411,28 +1408,25 @@
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div>
-            © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
+            © Copyright <strong><span>Joaquin Academy</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by Joaquin Academy IT Department
           </div>
         </div>
 
         <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
         </div>
 
       </div>
     </div>
 
   </footer>
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
