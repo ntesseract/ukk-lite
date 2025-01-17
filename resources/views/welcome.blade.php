@@ -1100,65 +1100,125 @@
   
     </div>
   
-  </section><!-- /Faq Section -->  
+  </section><!-- /Faq Section -->
+  
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Siswa unggulan Kami</h2>
+        <p>Siswa terbaik yang berasal dari Joaquin Highschool.</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+      
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/unggulan/siswa-2.jpg" class="img-fluid" alt="Andik Suyandik">
+              </div>
+              <div class="member-info">
+                <h4>Andik Suyandik</h4>
+                <span>Juara Olimpiade Matematika Tingkat Nasional</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+      
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/unggulan/siswa-4.jpg" class="img-fluid" alt="Santok Tok">
+              </div>
+              <div class="member-info">
+                <h4>Santok Tok</h4>
+                <span>Pemenang Kompetisi Debat Bahasa Inggris Internasional</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+      
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/unggulan/siswa-3.jpg" class="img-fluid" alt="Sugong Muyono">
+              </div>
+              <div class="member-info">
+                <h4>Sugong Muyono</h4>
+                <span>Atlet Peraih Medali Emas di Kejuaraan Atletik Tingkat Asia</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+      
+        </div>
+      
+      </div>
+      
+    
+    </section><!-- /Team Section -->
+    
+  <!-- Recent Posts Section -->
+  <section id="recent-posts" class="recent-posts section">
+
 
     <!-- Team Section -->
-<section id="team" class="team section">
+  <section id="team" class="team section">
 
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Pengajar Kami</h2>
-      <p>Tim pengajar yang berkompeten dan berdedikasi tinggi untuk membimbing para mahasiswa mencapai kesuksesan.</p>
-    </div><!-- End Section Title -->
-  
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-  
-      <div class="row gy-5">
-  
-        <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
-          <div class="team-member">
-            <div class="member-img">
-              <img src="assets/img/piano.jpg" class="img-fluid" alt="Dr. Piano Agus">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pengajar Kami</h2>
+        <p>Tim pengajar yang berkompeten dan berdedikasi tinggi untuk membimbing para mahasiswa mencapai kesuksesan.</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+        <div class="row gy-5">
+    
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/piano.jpg" class="img-fluid" alt="Dr. Piano Agus">
+              </div>
+              <div class="member-info">
+                <h4>Dr. Piano Agus</h4>
+                <span>Rektor & Ahli Teknologi Informasi</span>
+              </div>
             </div>
-            <div class="member-info">
-              <h4>Dr. Piano Agus</h4>
-              <span>Rektor & Ahli Teknologi Informasi</span>
+          </div><!-- End Team Member -->
+    
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/hand.jpg" class="img-fluid" alt="Prof. Handless agoes">
+              </div>
+              <div class="member-info">
+                <h4>Prof. Handless Agoes</h4>
+                <span>Ketua Program Studi Kewirausahaan</span>
+              </div>
             </div>
-          </div>
-        </div><!-- End Team Member -->
-  
-        <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
-          <div class="team-member">
-            <div class="member-img">
-              <img src="assets/img/hand.jpg" class="img-fluid" alt="Prof. Handless agoes">
+          </div><!-- End Team Member -->
+    
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/sad.jpg" class="img-fluid" alt="Dr. Sadness goes">
+              </div>
+              <div class="member-info">
+                <h4>Dr. Sadness goes</h4>
+                <span>Pakar Desain Grafis & Multimedia</span>
+              </div>
             </div>
-            <div class="member-info">
-              <h4>Prof. Handless Agoes</h4>
-              <span>Ketua Program Studi Kewirausahaan</span>
-            </div>
-          </div>
-        </div><!-- End Team Member -->
-  
-        <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
-          <div class="team-member">
-            <div class="member-img">
-              <img src="assets/img/sad.jpg" class="img-fluid" alt="Dr. Sadness goes">
-            </div>
-            <div class="member-info">
-              <h4>Dr. Sadness goes</h4>
-              <span>Pakar Desain Grafis & Multimedia</span>
-            </div>
-          </div>
-        </div><!-- End Team Member -->
-  
+          </div><!-- End Team Member -->
+    
+        </div>
+    
       </div>
-  
-    </div>
-  
+    
   </section><!-- /Team Section -->
-  
-<!-- Recent Posts Section -->
-<section id="recent-posts" class="recent-posts section">
+    
+  <!-- Recent Posts Section -->
+  <section id="recent-posts" class="recent-posts section">
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
@@ -1255,86 +1315,87 @@
   </section><!-- /Recent Posts Section -->
   
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+  <section id="contact" class="contact section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Hubungi Kami</h2>
+      <p>Hubungi Joaquin Academy Highschool untuk pertanyaan, pendaftaran, atau informasi lebih lanjut mengenai program dan fasilitas kami.</p>
+    </div><!-- End Section Title -->
 
-      <div class="mb-5">
-        <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen=""></iframe>
-      </div><!-- End Google Maps -->
+    <div class="mb-5">
+      <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.520907458421!2d110.37756837403599!3d-6.9477121680145935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70f51d362cbd7d%3A0x6239c0d02d5f3d05!2sBINUS%20SCHOOL%20Semarang!5e0!3m2!1sid!2sid!4v1737100518586!5m2!1sid!2sid" frameborder="0" allowfullscreen=""></iframe>
+    </div><!-- End Google Maps -->
 
-      <div class="container" data-aos="fade">
+    <div class="container" data-aos="fade">
 
-        <div class="row gy-5 gx-lg-5">
+      <div class="row gy-5 gx-lg-5">
 
-          <div class="col-lg-4">
+        <div class="col-lg-4">
 
-            <div class="info">
-              <h3>Get in touch</h3>
-              <p>Et id eius voluptates atque nihil voluptatem enim in tempore minima sit ad mollitia commodi minus.</p>
+          <div class="info">
+            <h3>Informasi Kontak</h3>
+            <p>Jika Anda memiliki pertanyaan, jangan ragu untuk menghubungi kami melalui saluran berikut:</p>
 
-              <div class="info-item d-flex">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div><!-- End Info Item -->
+            <div class="info-item d-flex">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h4>Lokasi:</h4>
+                <p>Jl. Kokrosono. No. 75</p>
+              </div>
+            </div><!-- End Info Item -->
 
-              <div class="info-item d-flex">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h4>Email:</h4>
-                  <p>info@example.com</p>
-                </div>
-              </div><!-- End Info Item -->
+            <div class="info-item d-flex">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h4>Email:</h4>
+                <p>contact@joaquinacademy.edu</p>
+              </div>
+            </div><!-- End Info Item -->
 
-              <div class="info-item d-flex">
-                <i class="bi bi-phone flex-shrink-0"></i>
-                <div>
-                  <h4>Call:</h4>
-                  <p>+1 5589 55488 55</p>
-                </div>
-              </div><!-- End Info Item -->
-
-            </div>
+            <div class="info-item d-flex">
+              <i class="bi bi-phone flex-shrink-0"></i>
+              <div>
+                <h4>Telepon:</h4>
+                <p>+1 800 123 4567</p>
+              </div>
+            </div><!-- End Info Item -->
 
           </div>
 
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" placeholder="Message" required=""></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div><!-- End Contact Form -->
-
         </div>
+
+        <div class="col-lg-8">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nama Anda" required="">
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email Anda" required="">
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subjek" required="">
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" placeholder="Pesan" required=""></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Memuat</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Pesan Anda telah terkirim. Terima kasih!</div>
+            </div>
+            <div class="text-center"><button type="submit">Kirim Pesan</button></div>
+          </form>
+        </div><!-- End Contact Form -->
 
       </div>
 
-    </section><!-- /Contact Section -->
+    </div>
+
+  </section><!-- /Contact Section -->
+
 
   </main>
 
@@ -1411,7 +1472,7 @@
             © Copyright <strong><span>Joaquin Academy</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
-            Designed by Joaquin Academy IT Department
+            Designed by Tesseract, Ibrahim Naufal && Team
           </div>
         </div>
 
